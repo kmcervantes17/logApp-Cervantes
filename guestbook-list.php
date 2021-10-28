@@ -1,7 +1,7 @@
 <?php
 	require('config/config.php');
 	require('config/db.php');
-$result= $conn->query("SELECT * FROM person"); 
+$result= $conn->query("SELECT * FROM PERSON"); 
 
 ?>
 
@@ -29,10 +29,10 @@ $result= $conn->query("SELECT * FROM person");
                         $date = $person['logdt'];
                         $today =  date("F j, Y, g:i a", strtotime($date));
                         echo '<tr>';
-                        echo '<td>'.$person['id'].'</td>';
-                        echo '<td>'.$person['firstname'].'</td>';
-                        echo '<td>'.$person['lastname'].'</td>';
-                        echo '<td>'.$person['address'].'</td>';
+                        echo '<td>'.$person['PID'].'</td>';
+                        echo '<td>'.$person['FIRSTNAME'].'</td>';
+                        echo '<td>'.$person['LASTNAME'].'</td>';
+                        echo '<td>'.$person['ADDRESS'].'</td>';
                         echo '<td>'.$today.'</td>';
                         echo '</tr>';
                         }

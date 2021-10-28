@@ -8,7 +8,7 @@
 
       $un = $_POST['username'];
       $pw = $_POST['password'];
-      $result= $conn->query("SELECT * FROM account WHERE username='$un' AND password='$pw'"); 
+      $result= $conn->query("SELECT * FROM USERACCOUNT WHERE USERNAME='$un' AND PASSWORD='$pw'"); 
 
       $row= $result ->Fetch_array();
       $nr= $result->num_rows;
