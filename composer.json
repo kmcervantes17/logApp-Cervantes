@@ -1,10 +1,8 @@
 {
-<<<<<<< HEAD
-    "names": "[kmcervantes17/logApp-Cervantes]",
-=======
-    "name": "[kmcervantes17/logApp-Cervantes]",
->>>>>>> 6de98f2d81bcd02b32ec31d8244844423d8a1ca5
+    "names": "[Redemple332/logApp-Marcelo]",
     "type": "project",
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    }
 }
